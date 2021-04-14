@@ -166,4 +166,135 @@ h3 {
   font-size: 16px;
   line-height: 200%;
 }
+
+.services__title {
+  margin-bottom: 20px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-list__item {
+  border-radius: 15px;
+  background-color: white;
+  max-width: 47%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.services-list__item__nav {
+  padding: 26px 100px 30px 45px;
+}
+
+.services-list__item__nav__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #CC9933 !important;
+}
+
+.services-list__item__nav__text {
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.advantage__title {
+  margin-bottom: 20px;
+}
+
+.advantage-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.advantage-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  border-radius: 15px;
+  background-color: white;
+  max-width: 23%;
+  padding: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.advantage-list__item__img {
+  margin-bottom: 10px;
+}
+
+.advantage-list__item__text {
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.price__title {
+  margin-bottom: 20px;
+}
+
+.price-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price-list__item {
+  max-width: 374px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.price-list__item:nth-child(3) {
+  margin-right: 0px;
+}
+
+.price-list__item:nth-child(6) {
+  margin-right: 0px;
+}
+
+.price-list__item:nth-child(9) {
+  margin-right: 0px;
+}
+
+.price-list__item:nth-child(7) {
+  margin-bottom: 0px;
+}
+
+.price-list__item:nth-child(8) {
+  margin-bottom: 0px;
+}
+
+.price-list__item:nth-child(9) {
+  margin-bottom: 0px;
+}
+
+.price-list__item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-list__item-nav__title {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.price-list__item-nav__text {
+  font-size: 16px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.price-list__item-nav__button {
+  border-radius: 10px;
+  color: #CC9933;
+  border-color: #CC9933;
+}
 /*# sourceMappingURL=main.css.map */
