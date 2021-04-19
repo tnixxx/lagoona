@@ -244,57 +244,15 @@ h3 {
 }
 
 .price-list__item {
-  max-width: 374px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  border-radius: 15px;
   background-color: white;
-}
-
-.price-list__item:nth-child(3) {
-  margin-right: 0px;
-}
-
-.price-list__item:nth-child(6) {
-  margin-right: 0px;
-}
-
-.price-list__item:nth-child(9) {
-  margin-right: 0px;
-}
-
-.price-list__item:nth-child(7) {
-  margin-bottom: 0px;
-}
-
-.price-list__item:nth-child(8) {
-  margin-bottom: 0px;
-}
-
-.price-list__item:nth-child(9) {
-  margin-bottom: 0px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .price-list__item-container {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: space-between;
-}
-
-.price-list__item-nav__title {
-  font-size: 16px;
-  line-height: 16px;
-}
-
-.price-list__item-nav__text {
-  font-size: 16px;
-  line-height: 16px;
-  color: #999999;
-}
-
-.price-list__item-nav__button {
-  border-radius: 10px;
-  color: #CC9933;
-  border-color: #CC9933;
 }
 /*# sourceMappingURL=main.css.map */
