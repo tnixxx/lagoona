@@ -1,0 +1,99 @@
+.cards
+    display: flex
+    justify-content: center
+    // flex-wrap: wrap
+    &-title 
+        margin-top: 50px
+        margin-bottom: 20px
+    &__list
+        margin-right: 23px
+        display: flex
+        flex-direction: column
+        &-item
+            padding: 30px 234px 30px 30px
+            border-radius: 15px
+            &-title
+                margin-bottom: 15px
+            &-price
+                // font-family: Muller 
+                font-size: 20px
+                line-height: 20px
+                color: #FFFFFF
+                margin-bottom: 47px
+            &-link
+                // font-family: Muller
+                font-size: 16px
+                line-height: 16px
+                color: #FFCC66
+    &__block
+        padding: 200px 234px 30px 30px
+        border-radius: 15px
+        &-title
+            font-size: 60px !important
+            line-height: 60px !important
+            margin-bottom: 15px
+        &-price
+            // font-family: Muller 
+            font-size: 20px
+            line-height: 20px
+            color: #FFFFFF
+            margin-bottom: 47px
+        &-link
+            // font-family: Muller
+            font-size: 16px
+            line-height: 16px
+            color: #FFCC66
+@media (max-width: 1200px)
+    .cards
+        &__list
+            &-item
+                padding: 30px 230px 30px 30px
+        &__block
+            padding: 200px 235px 30px 30px
+@media (max-width: 1168px)
+    .cards
+        &__list
+            &-item
+                padding: 30px 220px 30px 30px
+        &__block
+            padding: 200px 225px 30px 30px
+@media (max-width: 1148px)
+    .cards
+        &__list
+            &-item
+                padding: 30px 180px 30px 30px
+        &__block
+            padding: 200px 195px 30px 30px
+@media (max-width: 1088px)
+    .cards
+        &__list
+            &-item
+                padding: 30px 160px 30px 30px
+        &__block
+            padding: 200px 175px 30px 30px
+@media (max-width: 1038px)
+    .cards
+        display: flex
+        flex-direction: column
+        &__list
+            &-item
+                max-width: 573px !important
+                padding: 30px 0px 30px 30px !important
+        &__block
+            max-width: 573px !important
+            padding: 200px 0px 30px 30px !important
+@media (max-width: 500px)
+    .cards
+        &__list
+            &-item
+                padding: 20px 0px 20px 20px !important
+                &-title
+                    font-size: 32px !important
+                &-price
+                    margin-bottom: 20px
+        &__block
+            &-title
+                    font-size: 32px !important
+                    line-height: 40px !important
+            &-price
+                margin-bottom: 20px
