@@ -1,15 +1,62 @@
 .price
-    &__title
-        margin-bottom: 20px
-    &-list
+    &-title
+    &__list
         display: flex
         flex-wrap: wrap
-        &__item
+        &-item
             background-color: white
             border-radius: 15px
-            display: flex
-            flex-direction: column
+            max-width: 374px
+            margin-right: 10px
+            margin-bottom: 10px
+            &:nth-child(3)
+                margin-right: 0px
+            &:nth-child(6)
+                margin-right: 0px
+            &:nth-child(7)
+                margin-bottom: 0px
+            &:nth-child(8)
+                margin-bottom: 0px
+            &:nth-child(9)
+                margin-right: 0px
+                
             &-container
+                padding: 20px                              
+            &-img
+                max-width: 374px !important
+            &__rating
                 display: flex
-                justify-content: flex-start
-                align-items: center
+                align-items: baseline
+                justify-content: space-between
+                &-text
+                    font-size: 16px
+                    line-height: 16px
+                &_img
+            &__container
+                &-title
+                &-subtitle
+                    margin-top: 16px
+                    margin-bottom: 20px
+                    color: #999
+            &-button
+                padding: 13px 20px 13px 20px
+                border-radius: 15px
+                border-color: #CC9933
+                color: #CC9933 !important
+                font-size: 16px
+                line-height: 16px
+            &-last
+                border-radius: 15px
+                max-width: 374px
+                padding: 0px 55px 30px 55px
+                display: flex
+                justify-content: center
+                align-items: flex-end
+                background-image: url(../img/price/price-9.png)
+                background-position: center
+                background-repeat: no-repeat
+                &-text
+                    font-weight: 500
+                    font-size: 20px
+                    line-height: 200%
+                    color: white
